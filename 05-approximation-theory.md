@@ -339,7 +339,7 @@ $$\frac{d f_t(x)}{dt} = -\Theta^*(x, X)(f_t(X) - Y)$$
 
 其中 $X, Y$ 是训练数据。这是一个线性 ODE，解为：
 
-$$f_t(x) = f_0(x) + \Theta^*(x, X)\Theta^*(X, X)^{-1}(I - e^{-\Theta^*(X,X)t})(Y - f_0(X))$$
+$$f_t(x) = f_0(x) + \Theta(x, X)\Theta(X, X)^{-1}(I - e^{-\Theta(X,X)t})(Y - f_0(X))$$
 
 当 $t \to \infty$ 时，收敛到核回归的解。
 
