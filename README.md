@@ -90,15 +90,15 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：AI 的数学语言、形式边界与结构表达从哪里来？
 
-- [[01-probability-and-statistics|概率论与数理统计]]
-- [[02-linear-algebra|线性代数]]
-- [[03-calculus-and-optimization|微积分与优化理论]]
-- [[04-information-theory|信息论]]
-- [[05-approximation-theory|逼近论]]
-- [[06-graph-theory|图论]]
-- [[07-topology-and-geometry|拓扑与几何]]
-- [[08-logic|逻辑学与形式推理]]
-- [[09-causal-inference|因果推断]]
+- [概率论与数理统计](./01-probability-and-statistics.md)
+- [线性代数](./02-linear-algebra.md)
+- [微积分与优化理论](./03-calculus-and-optimization.md)
+- [信息论](./04-information-theory.md)
+- [逼近论](./05-approximation-theory.md)
+- [图论](./06-graph-theory.md)
+- [拓扑与几何](./07-topology-and-geometry.md)
+- [逻辑学与形式推理](./08-logic.md)
+- [因果推断](./09-causal-inference.md)
 
 #### AI 中的角色
 
@@ -108,12 +108,12 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：理论成立之后，AI 怎样被算出来、控出来、部署出来，并演化成复杂系统？
 
-- [[10-computer-science|计算机科学]]
-- [[11-numerical-analysis|数值分析]]
-- [[12-signal-processing|信号处理]]
-- [[13-cybernetics|控制论]]
-- [[14-complexity-science|复杂性科学]]
-- [[15-computing-hardware-and-parallel-computing|AI 计算硬件与并行计算]]
+- [计算机科学](./10-computer-science.md)
+- [数值分析](./11-numerical-analysis.md)
+- [信号处理](./12-signal-processing.md)
+- [控制论](./13-cybernetics.md)
+- [复杂性科学](./14-complexity-science.md)
+- [AI 计算硬件与并行计算](./15-computing-hardware-and-parallel-computing.md)
 
 #### AI 中的角色
 
@@ -123,11 +123,11 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：自然智能如何形成，以及这些形成机制对 AI 有何启发与约束？
 
-- [[16-neuroscience|神经科学]]
-- [[17-cognitive-science|认知科学]]
-- [[18-psychology|心理学]]
-- [[19-linguistics|语言学]]
-- [[20-evolutionary-biology|进化生物学]]
+- [神经科学](./16-neuroscience.md)
+- [认知科学](./17-cognitive-science.md)
+- [心理学](./18-psychology.md)
+- [语言学](./19-linguistics.md)
+- [进化生物学](./20-evolutionary-biology.md)
 
 #### AI 中的角色
 
@@ -137,9 +137,9 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：主体如何决策、互动、协商和竞争，激励结构如何改变系统行为？
 
-- [[21-operations-research|运筹学]]
-- [[22-game-theory|博弈论]]
-- [[23-economics|经济学]]
+- [运筹学](./21-operations-research.md)
+- [博弈论](./22-game-theory.md)
+- [经济学](./23-economics.md)
 
 #### AI 中的角色
 
@@ -149,8 +149,8 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：系统的能量、相变与知识边界如何约束我们对智能的理解？
 
-- [[24-statistical-physics|统计物理]]
-- [[25-philosophy|哲学：认识论与心灵哲学]]
+- [统计物理](./24-statistical-physics.md)
+- [哲学：认识论与心灵哲学](./25-philosophy.md)
 
 #### AI 中的角色
 
@@ -160,10 +160,10 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 这一组回答的是：AI如何嵌入社会结构、制度与文化，以及如何治理其影响？
 
-- [[26-ai-ethics|AI伦理与治理]]
-- [[27-sociology|社会学]]
-- [[28-law|法学]]
-- [[29-anthropology|人类学]]
+- [AI伦理与治理](./26-ai-ethics.md)
+- [社会学](./27-sociology.md)
+- [法学](./28-law.md)
+- [人类学](./29-anthropology.md)
 
 #### AI 中的角色
 
@@ -177,31 +177,31 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 > 你会理解向量表示如何形成、梯度如何更新、有限精度与硬件为何共同决定模型是否可训练。
 
-[[02-linear-algebra|线性代数]] → [[03-calculus-and-optimization|微积分与优化理论]] → [[11-numerical-analysis|数值分析]] → [[15-computing-hardware-and-parallel-computing|AI 计算硬件与并行计算]]
+[线性代数](./02-linear-algebra.md) → [微积分与优化理论](./03-calculus-and-optimization.md) → [数值分析](./11-numerical-analysis.md) → [AI 计算硬件与并行计算](./15-computing-hardware-and-parallel-computing.md)
 
 #### 路径二：结构与关系
 
 > 你会理解当世界不是规则网格，而是关系网络与连续空间时，AI 如何表示结构。
 
-[[06-graph-theory|图论]] → [[07-topology-and-geometry|拓扑与几何]] → [[10-computer-science|计算机科学]] → [[14-complexity-science|复杂性科学]]
+[图论](./06-graph-theory.md) → [拓扑与几何](./07-topology-and-geometry.md) → [计算机科学](./10-computer-science.md) → [复杂性科学](./14-complexity-science.md)
 
 #### 路径三：不确定性、信息与机制
 
 > 你会理解模型如何处理不确定性、压缩信息，以及如何区分相关与因果。
 
-[[01-probability-and-statistics|概率论与数理统计]] → [[04-information-theory|信息论]] → [[09-causal-inference|因果推断]] → [[24-statistical-physics|统计物理]]
+[概率论与数理统计](./01-probability-and-statistics.md) → [信息论](./04-information-theory.md) → [因果推断](./09-causal-inference.md) → [统计物理](./24-statistical-physics.md)
 
 #### 路径四：控制与智能体
 
 > 你会理解反馈、序贯决策和多主体互动为什么是 Agent 系统的理论前身。
 
-[[12-signal-processing|信号处理]] → [[13-cybernetics|控制论]] → [[21-operations-research|运筹学]] → [[22-game-theory|博弈论]]
+[信号处理](./12-signal-processing.md) → [控制论](./13-cybernetics.md) → [运筹学](./21-operations-research.md) → [博弈论](./22-game-theory.md)
 
 #### 路径五：自然智能与 AGI
 
 > 你会理解大脑、认知、行为、语言、哲学与治理问题为何始终是 AGI 讨论的背景层。
 
-[[16-neuroscience|神经科学]] → [[17-cognitive-science|认知科学]] → [[18-psychology|心理学]] → [[19-linguistics|语言学]] → [[25-philosophy|哲学]] → [[26-ai-ethics|AI伦理与治理]]
+[神经科学](./16-neuroscience.md) → [认知科学](./17-cognitive-science.md) → [心理学](./18-psychology.md) → [语言学](./19-linguistics.md) → [哲学](./25-philosophy.md) → [AI伦理与治理](./26-ai-ethics.md)
 
 #### AI 中的角色
 
@@ -211,19 +211,19 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 
 #### 路线 A：面向机器学习 / 深度学习
 
-[[01-probability-and-statistics|概率论]] → [[02-linear-algebra|线性代数]] → [[03-calculus-and-optimization|微积分与优化]] → [[04-information-theory|信息论]] → [[11-numerical-analysis|数值分析]] → [[15-computing-hardware-and-parallel-computing|AI 计算硬件与并行计算]]
+[概率论](./01-probability-and-statistics.md) → [线性代数](./02-linear-algebra.md) → [微积分与优化](./03-calculus-and-optimization.md) → [信息论](./04-information-theory.md) → [数值分析](./11-numerical-analysis.md) → [AI 计算硬件与并行计算](./15-computing-hardware-and-parallel-computing.md)
 
 #### 路线 B：面向结构化 AI / 图学习
 
-[[06-graph-theory|图论]] → [[07-topology-and-geometry|拓扑与几何]] → [[10-computer-science|计算机科学]] → [[14-complexity-science|复杂性科学]]
+[图论](./06-graph-theory.md) → [拓扑与几何](./07-topology-and-geometry.md) → [计算机科学](./10-computer-science.md) → [复杂性科学](./14-complexity-science.md)
 
 #### 路线 C：面向强化学习 / 智能体
 
-[[01-probability-and-statistics|概率论]] → [[03-calculus-and-optimization|优化理论]] → [[13-cybernetics|控制论]] → [[21-operations-research|运筹学]] → [[22-game-theory|博弈论]] → [[14-complexity-science|复杂性科学]]
+[概率论](./01-probability-and-statistics.md) → [优化理论](./03-calculus-and-optimization.md) → [控制论](./13-cybernetics.md) → [运筹学](./21-operations-research.md) → [博弈论](./22-game-theory.md) → [复杂性科学](./14-complexity-science.md)
 
 #### 路线 D：面向推理 / AGI / 治理
 
-[[08-logic|逻辑学]] → [[09-causal-inference|因果推断]] → [[10-computer-science|计算机科学]] → [[17-cognitive-science|认知科学]] → [[19-linguistics|语言学]] → [[25-philosophy|哲学：认识论与心灵哲学]] → [[26-ai-ethics|AI伦理与治理]] → [[27-sociology|社会学]] → [[28-law|法学]]
+[逻辑学](./08-logic.md) → [因果推断](./09-causal-inference.md) → [计算机科学](./10-computer-science.md) → [认知科学](./17-cognitive-science.md) → [语言学](./19-linguistics.md) → [哲学：认识论与心灵哲学](./25-philosophy.md) → [AI伦理与治理](./26-ai-ethics.md) → [社会学](./27-sociology.md) → [法学](./28-law.md)
 
 #### AI 中的角色
 
@@ -240,10 +240,10 @@ AI 从来不是单一学科的自然延伸。它更像一个汇流系统：
 | [微积分与优化理论](./03-calculus-and-optimization.md) | 训练过程本质上是可微优化 |
 | [信息论](./04-information-theory.md) | 熵、压缩、互信息与损失函数语言 |
 | [图论](./06-graph-theory.md) | 关系结构与图学习的基础入口 |
-| [逻辑学与形式推理](./05-logic.md) | 符号推理与规则系统的基础 |
+| [逻辑学与形式推理](./08-logic.md) | 符号推理与规则系统的基础 |
 | [因果推断](./09-causal-inference.md) | 让模型从相关走向机制 |
-| [控制论](./15-cybernetics.md) | 反馈、闭环和智能体问题的前史 |
-| [AI 计算硬件与并行计算](./18-computing-hardware-and-parallel-computing.md) | 理解为什么现代 AI 必然是系统工程 |
+| [控制论](./13-cybernetics.md) | 反馈、闭环和智能体问题的前史 |
+| [AI 计算硬件与并行计算](./15-computing-hardware-and-parallel-computing.md) | 理解为什么现代 AI 必然是系统工程 |
 | [哲学：认识论与心灵哲学](./25-philosophy.md) | 解释”什么算理解、推理、意识与 AGI” |
 | [AI伦理与治理](./26-ai-ethics.md) | 大模型时代的对齐、公平、可解释性与治理问题 |
 | [社会学](./27-sociology.md) | 理解AI如何嵌入社会结构与权力关系 |
